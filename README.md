@@ -78,6 +78,16 @@ streamlit run app.py
 ## 📸 Screenshot
 
 > ![Screenshot 2025-06-16 221737](https://github.com/user-attachments/assets/b3bc4e9a-8a3a-4652-82e0-7884221678be)
+> ![Screenshot 2025-06-16 221649](https://github.com/user-attachments/assets/81f40a86-2644-46f0-89b0-e72b2a1a8ffb)
+> ![Screenshot 2025-06-16 221700](https://github.com/user-attachments/assets/f9ecaac8-42c8-4dfb-98d1-b0ae711926ed)
+> ![Screenshot 2025-06-16 221710](https://github.com/user-attachments/assets/79ba1d8d-4528-44fb-8ff1-f7fa4ec2c02b)
+> ![Screenshot 2025-06-16 221726](https://github.com/user-attachments/assets/3c4e2ba2-7f3c-46b2-98bd-ef5a1f4410d8)
+> ![Screenshot 2025-06-16 221737](https://github.com/user-attachments/assets/773c30ec-b23a-432f-9fe1-7b5415790235)
+
+
+
+
+
 
 
 ---
