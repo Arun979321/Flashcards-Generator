@@ -99,6 +99,4 @@ GitHub: [github.com/Arun979321](https://github.com/Arun979321)
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
