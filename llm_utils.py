@@ -1,11 +1,19 @@
-import os
 import openai
+import os
 
+# Try to get API key from Streamlit secrets (only works when run via Streamlit)
+try:
+    import streamlit as st
+    openai.api_key = st.secrets.get("OPENAI_API_KEY", None)
+except Exception:
+    # Fallback to local .env file
+    from dotenv import load_dotenv
+    load_dotenv()
+    openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
-from dotenv import load_dotenv
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Final safeguard
+if not openai.api_key:
+    raise ValueError("⚠️ OpenAI API key not found. Please set it in .env or Streamlit secrets.")
 
 def generate_flashcards(text, subject="General", difficulty="Mixed", language="English"):
     # Emphasize language constraint
