@@ -3,6 +3,7 @@
 This Streamlit app generates intelligent Q&A flashcards from any educational text. Just upload your study material and get downloadable flashcards instantly — perfect for revision or import into tools like Anki.
 
 ---
+Live at: https://flashcards-generator-by-arun-kumar.streamlit.app/
 
 ## 🚀 Features
 
